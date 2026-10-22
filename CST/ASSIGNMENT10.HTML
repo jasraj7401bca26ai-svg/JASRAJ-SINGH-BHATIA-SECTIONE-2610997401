@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Map Explorer</title>
+</head>
+
+<body bgcolor="#E0F7FA" text="#243447" link="#176B87" vlink="#537895">
+
+    <table width="100%" bgcolor="#09203F" cellpadding="25">
+        <tr>
+            <td align="center">
+                <font color="#80DEEA" size="7">
+                    <b>🌍 World Map Explorer</b>
+                </font>
+                <br><br>
+                <font color="white" size="4">
+                    Discover the world with interactive HTML image maps!
+                </font>
+                <br><br>
+                <font color="white" size="3">
+                    Click a region on the map to explore a country.
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <center>
+        <font color="#123C69" size="6">
+            <b>Explore Our World</b>
+        </font>
+        <br><br>
+        <font size="4">
+            Select a region to visit an external information page.
+            <br>
+            This page demonstrates HTML image maps and hyperlinks.
+        </font>
+    </center>
+
+    <br><br>
+
+    <table width="92%" align="center" bgcolor="white" border="1" cellpadding="15">
+        <tr>
+            <td align="center">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
+                    alt="World Map with clickable regions"
+                    width="100%"
+                    usemap="#worldmap"
+                >
+
+                <map name="worldmap">
+
+                    <area
+                        shape="circle"
+                        coords="670,300,35"
+                        href="https://en.wikipedia.org/wiki/India"
+                        alt="India"
+                        title="Explore India"
+                        target="_blank"
+                    >
+
+                    <area
+                        shape="rect"
+                        coords="750,390,870,470"
+                        href="https://en.wikipedia.org/wiki/Australia"
+                        alt="Australia"
+                        title="Explore Australia"
+                        target="_blank"
+                    >
+
+                    <area
+                        shape="poly"
+                        coords="835,190,860,205,870,235,850,255,835,230"
+                        href="https://en.wikipedia.org/wiki/Japan"
+                        alt="Japan"
+                        title="Explore Japan"
+                        target="_blank"
+                    >
+
+                    <area
+                        shape="default"
+                        href="https://www.britannica.com/place/world"
+                        alt="Other regions of the world"
+                        title="Explore the World"
+                        target="_blank"
+                    >
+
+                </map>
+
+                <br>
+                <font color="#176B87" size="4">
+                    <b>🌐 Click the map to discover different countries!</b>
+                </font>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <center>
+        <font color="#123C69" size="6">
+            <b>How Image Maps Work</b>
+        </font>
+    </center>
+
+    <br>
+
+    <table width="92%" align="center" border="1" cellpadding="18" cellspacing="5">
+
+        <tr bgcolor="#B2EBF2" align="center">
+            <td width="25%">
+                <font size="6">⭕</font>
+                <h2>Circle</h2>
+                <font size="3">
+                    Represents India. The coordinates define the
+                    center and radius of the clickable region.
+                </font>
+                <br><br>
+                <a href="https://en.wikipedia.org/wiki/India" target="_blank">
+                    <b>Explore India ↗️</b>
+                </a>
+            </td>
+
+            <td width="25%" bgcolor="#FFFFFF" align="center">
+                <font size="6">▭</font>
+                <h2>Rectangle</h2>
+                <font size="3">
+                    Represents Australia. The coordinates define
+                    two opposite corners of the clickable region.
+                </font>
+                <br><br>
+                <a href="https://en.wikipedia.org/wiki/Australia" target="_blank">
+                    <b>Explore Australia ↗️</b>
+                </a>
+            </td>
+
+            <td width="25%" bgcolor="#B2EBF2" align="center">
+                <font size="6">⬡</font>
+                <h2>Polygon</h2>
+                <font size="3">
+                    Represents Japan. Multiple coordinate points
+                    define the boundary of the clickable region.
+                </font>
+                <br><br>
+                <a href="https://en.wikipedia.org/wiki/Japan" target="_blank">
+                    <b>Explore Japan ↗️</b>
+                </a>
+            </td>
+
+            <td width="25%" bgcolor="#FFFFFF" align="center">
+                <font size="6">🌐</font>
+                <h2>Default Area</h2>
+                <font size="3">
+                    Covers image areas not covered by other
+                    defined regions.
+                </font>
+                <br><br>
+                <a href="https://www.britannica.com/place/world" target="_blank">
+                    <b>Explore World ↗️</b>
+                </a>
+            </td>
+        </tr>
+
+    </table>
+
+    <br><br>
+
+    <table width="100%" bgcolor="#09203F" cellpadding="22">
+        <tr>
+            <td align="center">
+                <font color="#80DEEA" size="4">
+                    <b>World Map Explorer</b>
+                </font>
+                <br><br>
+                <font color="white" size="3">
+                    HTML Image Maps &amp; Hyperlinks
+                    <br><br>
+                    Created for Web Development Assignment
+                    <br><br>
+                    ©️ 2026 World Map Explorer
+                </font>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
